@@ -1,0 +1,54 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Users\\User\\DOWNLO~1\\firebase-tools-instant-win.exe',
+1 verbose cli   'C:\\snapshot\\firepit\\node_modules\\npm\\bin\\npm-cli',
+1 verbose cli   '--script-shell=C:\\Users\\User\\.cache\\firebase\\runtime/shell.bat',
+1 verbose cli   '--globalconfig=C:\\Users\\User\\.cache\\firebase\\runtime\\npmrc',
+1 verbose cli   '--userconfig=C:\\Users\\User\\.cache\\firebase\\runtime\\npmrc',
+1 verbose cli   '--scripts-prepend-node-path=auto',
+1 verbose cli   'install'
+1 verbose cli ]
+2 info using npm@6.14.16
+3 info using node@v12.18.1
+4 verbose npm-session fa179ac56771dfe4
+5 silly install runPreinstallTopLevelLifecycles
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 timing stage:loadCurrentTree Completed in 5ms
+9 silly install loadIdealTree
+10 silly install cloneCurrentTreeToIdealTree
+11 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+12 silly install loadShrinkwrap
+13 timing stage:rollbackFailedOptional Completed in 0ms
+14 timing stage:runTopLevelLifecycles Completed in 30ms
+15 silly saveTree Downloads
+16 verbose stack SyntaxError: Unexpected token , in JSON at position 28 while parsing near '...ckfileVersion": 1
+16 verbose stack },
+16 verbose stack
+16 verbose stack "dependencies":...'
+16 verbose stack     at JSON.parse (<anonymous>)
+16 verbose stack     at parseJson (C:\snapshot\firepit\node_modules\npm\node_modules\json-parse-better-errors\index.js:7:17)
+16 verbose stack     at C:\snapshot\firepit\node_modules\npm\lib\utils\parse-json.js:4:10
+16 verbose stack     at parsePkgLock (C:\snapshot\firepit\node_modules\npm\lib\install\read-shrinkwrap.js:67:12)
+16 verbose stack     at C:\snapshot\firepit\node_modules\npm\lib\install\read-shrinkwrap.js:27:22
+16 verbose stack     at tryCatcher (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\util.js:16:23)
+16 verbose stack     at Holder$2._callFunction (eval at generateHolderClass (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\join.js:92:16), <anonymous>:12:44)
+16 verbose stack     at Holder$2.checkFulfillment (eval at generateHolderClass (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\join.js:92:16), <anonymous>:27:30)
+16 verbose stack     at Promise.eval (eval at thenCallback (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\join.js:14:16), <anonymous>:4:20)
+16 verbose stack     at Promise._settlePromise (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:571:21)
+16 verbose stack     at Promise._settlePromise0 (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:619:10)
+16 verbose stack     at Promise._settlePromises (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:699:18)
+16 verbose stack     at Promise._fulfill (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:643:18)
+16 verbose stack     at Promise._settlePromise (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:587:21)
+16 verbose stack     at Promise._settlePromise0 (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:619:10)
+16 verbose stack     at Promise._settlePromises (C:\snapshot\firepit\node_modules\npm\node_modules\bluebird\js\release\promise.js:699:18)
+17 verbose cwd C:\Users\User\Downloads
+18 verbose Windows_NT 10.0.19044
+19 verbose argv "C:\\Users\\User\\DOWNLO~1\\firebase-tools-instant-win.exe" "C:\\snapshot\\firepit\\node_modules\\npm\\bin\\npm-cli" "--script-shell=C:\\Users\\User\\.cache\\firebase\\runtime/shell.bat" "--globalconfig=C:\\Users\\User\\.cache\\firebase\\runtime\\npmrc" "--userconfig=C:\\Users\\User\\.cache\\firebase\\runtime\\npmrc" "--scripts-prepend-node-path=auto" "install"
+20 verbose node v12.18.1
+21 verbose npm  v6.14.16
+22 error Unexpected token , in JSON at position 28 while parsing near '...ckfileVersion": 1
+22 error },
+22 error
+22 error "dependencies":...'
+23 verbose exit [ 1, true ]

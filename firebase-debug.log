@@ -1,0 +1,33 @@
+[debug] [2022-04-26T17:11:44.953Z] ----------------------------------------------------------------------
+[debug] [2022-04-26T17:11:44.956Z] Command:       C:\Users\User\DOWNLO~1\Y\firebase-tools-instant-win.exe C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase emulators:start
+[debug] [2022-04-26T17:11:44.956Z] CLI Version:   10.7.1
+[debug] [2022-04-26T17:11:44.956Z] Platform:      win32
+[debug] [2022-04-26T17:11:44.956Z] Node Version:  v12.18.1
+[debug] [2022-04-26T17:11:44.958Z] Time:          Tue Apr 26 2022 11:11:44 GMT-0600 (GMT-06:00)
+[debug] [2022-04-26T17:11:44.958Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-26T17:11:45.041Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-26T17:11:45.042Z] > authorizing via signed-in user (esanchez@facturas.gt)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-04-26T17:11:47.122Z] [hub] writing locator at C:\Users\User\AppData\Local\Temp\hub-conexion-b3984.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] i  emulators: Shutting down emulators. {"metadata":{"emulator":{"name":"hub"},"message":"Shutting down emulators."}}
+[info] i  functions: Stopping Functions Emulator {"metadata":{"emulator":{"name":"functions"},"message":"Stopping Functions Emulator"}}
+[info] i  hub: Stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Stopping emulator hub"}}
+[debug] [2022-04-26T17:11:49.356Z] SyntaxError: C:\Users\User\Downloads\Y\functions\package.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1170:22)
+    at Module.load (internal/modules/cjs/loader.js:984:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:877:14)
+    at Module.require (internal/modules/cjs/loader.js:1024:19)
+    at Module.require (pkg/prelude/bootstrap.js:1338:31)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at FunctionsEmulator.getNodeBinary (C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:597:21)
+    at FunctionsEmulator.start (C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\emulator\functionsEmulator.js:203:39)
+    at Function.start (C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\emulator\registry.js:16:24)
+    at startEmulator (C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\emulator\controller.js:99:39)
+    at Object.startAll (C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\emulator\controller.js:329:15)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Command.actionFn (C:\Users\User\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\commands\emulators-start.js:28:35)
+[error] 
+[error] Error: An unexpected error has occurred.
